@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #006666, #008080);
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5em; /* Aumenta la dimensione del carattere */
+    font-weight: bold; /* Rendi il testo più spesso */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Aggiungi un'ombra al testo */
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 2em auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #006666;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: justify;
+    
+}
+
+h3 {
+    color: #007777;
+    margin-top: 1em;
+}
+
+.container > section > img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.container > section > img:hover {
+    transform: scale(1.05);
+}
